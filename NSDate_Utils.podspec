@@ -9,21 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = "NSDate_Utils"
   s.version          = "0.1.0"
-  s.summary          = "A short description of NSDate_Utils."
+s.summary          = "NSDate_Utils is a NSDate category that helps date managements. For example NSString to NSDate, NSDate to NSString,NSSdate comparisons"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+#s.description      = <<-DESC DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NSDate_Utils"
+  s.homepage         = "https://github.com/giuseppenucifora/NSDate_Utils"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Giuseppe Nucifora" => "me@giuseppenucifora.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NSDate_Utils.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/giuseppenucifora/NSDate_Utils.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

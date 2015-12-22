@@ -7,12 +7,22 @@
 //
 
 #import "NSDateUtilsAppDelegate.h"
+#import "NSDate+NSDate_Util.h"
 
 @implementation NSDateUtilsAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    NSDate *date = [NSDate date];
+    
+    NSLog(@"%@",date);
+    
+    NSLog(@"%@",[date dateByAddingDays:1]);
+    
+    NSLog(@"%@",[date dateByAddingHours:1]);
+    
     return YES;
 }
 
