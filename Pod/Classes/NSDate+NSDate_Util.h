@@ -63,6 +63,7 @@ static NSString *kNSDateHelperFormatSQLDateWithTimeEN_shashSeparated        = @"
 - (NSDate *) dateBySubtractingYears:(NSInteger) years;
 
 - (NSDate *) dateAtStartOfDay;
+- (NSDate *) dateAtEndOfDay;
 
 - (NSInteger) minutesAfterDate:(NSDate *) aDate;
 - (CGFloat) distanceInWeeksToDate:(NSDate *) anotherDate;
