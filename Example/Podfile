@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'NSDate_Utils_Example', :exclusive => true do
+target 'NSDate_Utils_Example' do
   pod "NSDate_Utils", :path => "../"
 end
 
-target 'NSDate_Utils_Tests', :exclusive => true do
+target 'NSDate_Utils_Tests' do
   pod "NSDate_Utils", :path => "../"
 
   pod 'Specta'
