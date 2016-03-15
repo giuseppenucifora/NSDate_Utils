@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NSDate_Utils"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
 s.summary          = "NSDate_Utils is a NSDate category that helps date managements. For example NSString to NSDate, NSDate to NSString,NSSdate comparisons"
 
 # This description is used to generate tags and improve search results.
@@ -29,11 +29,5 @@ s.summary          = "NSDate_Utils is a NSDate category that helps date manageme
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'NSDate_Utils' => ['Pod/Assets/*.png']
-  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
