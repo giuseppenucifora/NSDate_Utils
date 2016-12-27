@@ -23,6 +23,8 @@
     
     NSLog(@"%@",[date dateByAddingHours:1]);
     
+    NSLog(@"%@",[date monthSymbol]);
+    
     return YES;
 }
 
