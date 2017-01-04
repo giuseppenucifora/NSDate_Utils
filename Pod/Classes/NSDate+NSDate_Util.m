@@ -516,7 +516,18 @@ static NSDateFormatter *_displayFormatter = nil;
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     
-    NSArray *dateFormatsArray = [[NSArray alloc] initWithObjects:kNSDateHelperFormatSQLDate,kNSDateHelperFormatSQLDateIT,kNSDateHelperFormatSQLDate_notSlashSeparated,kNSDateHelperFormatSQLDateEN,kNSDateHelperFormatSQLDateIT_shashSeparated,kNSDateHelperFormatSQLDateEN_shashSeparated,kNSDateHelperFormatSQLTime,kNSDateHelperFormatSQLDateWithTime,kNSDateHelperFormatSQLDate_shashSeparated,kNSDateHelperFormatSQLDateWithTime_shashSeparated,kNSDateHelperFormatFullDateWithTime,kNSDateHelperFormatFullDate,kNSDateHelperFormatShortDateWithTime,kNSDateHelperFormatShortDate,kNSDateHelperFormatWeekday,kNSDateHelperFormatWeekdayWithTime,kNSDateHelperFormatTime,kNSDateHelperFormatTimeWithPrefix, nil];
+    NSArray *dateFormatsArray = [[NSArray alloc] initWithObjects:kNSDateHelperFormatFullDateWithTime,kNSDateHelperFormatFullDate,
+                                 kNSDateHelperFormatShortDateWithTime,kNSDateHelperFormatShortDate,kNSDateHelperFormatWeekday,
+                                 kNSDateHelperFormatWeekdayWithTime,kNSDateHelperFormatTime,kNSDateHelperFormatTimeWithPrefix,
+                                 kNSDateHelperFormatSQLTime,kNSDateHelperFormatSQLDate,kNSDateHelperFormatSQLDate_shashSeparated,
+                                 kNSDateHelperFormatSQLDateIT,kNSDateHelperFormatSQLDateIT_shashSeparated,kNSDateHelperFormatSQLDateEN,
+                                 kNSDateHelperFormatSQLDateEN_shashSeparated,kNSDateHelperFormatSQLDateWithTime,
+                                 kNSDateHelperFormatSQLDateWithTime_shashSeparated,kNSDateHelperFormatSQLDateWithTimeIT,
+                                 kNSDateHelperFormatSQLDateWithTimeIT_shashSeparated,kNSDateHelperFormatSQLDateWithTimeEN,
+                                 kNSDateHelperFormatSQLDateWithTimeEN_shashSeparated,kNSDateHelperFormatSQLDateWithTimeZone,
+                                 kNSDateHelperFormatSQLDateWithTimeZone_shashSeparated,kNSDateHelperFormatSQLDateWithTimeZoneEN,
+                                 kNSDateHelperFormatSQLDateWithTimeZoneEN_shashSeparated,kNSDateHelperFormatSQLDateWithTimeZoneIT,
+                                 kNSDateHelperFormatSQLDateWithTimeZoneIT_shashSeparated, nil];
     
     
     for (NSString *dateFormat in dateFormatsArray) {
