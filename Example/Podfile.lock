@@ -9,7 +9,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - NSDate_Utils (1.0.1)
+  - NSDate_Utils (1.0.3)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -27,7 +27,7 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  NSDate_Utils: b451375dcbf9099a444c32de029c4498a5e7d58e
+  NSDate_Utils: 2fb4071323341507c610821bc99b98ef8c46d4ac
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 PODFILE CHECKSUM: 5d3cb6429ba8613bec51b3e797c0070e91be6b26
