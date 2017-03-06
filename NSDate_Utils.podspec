@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NSDate_Utils"
-  s.version          = "1.0.5"
+  s.version          = "1.0.6"
 s.summary          = "NSDate_Utils is a NSDate category that helps date managements. For example NSString to NSDate, NSDate to NSString,NSSdate comparisons"
 
 # This description is used to generate tags and improve search results.
