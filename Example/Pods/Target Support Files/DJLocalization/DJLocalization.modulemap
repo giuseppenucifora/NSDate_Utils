@@ -1,0 +1,6 @@
+framework module DJLocalization {
+  umbrella header "DJLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}
