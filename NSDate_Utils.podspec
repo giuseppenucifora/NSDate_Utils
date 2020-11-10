@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NSDate_Utils"
-  s.version          = "1.1.0"
+  s.version          = "1.2.0"
 s.summary          = "NSDate_Utils is a NSDate category that helps date managements. For example NSString to NSDate, NSDate to NSString,NSSdate comparisons"
 
 # This description is used to generate tags and improve search results.
@@ -25,10 +25,8 @@ s.summary          = "NSDate_Utils is a NSDate category that helps date manageme
   s.source           = { :git => "https://github.com/giuseppenucifora/NSDate_Utils.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '8.0'
-  s.requires_arc = true
+s.ios.deployment_target = '10.0'
 
-  s.dependency 'DJLocalization'
   s.source_files = 'Pod/Classes/**/*'
 
 end
